@@ -12,6 +12,11 @@ module.exports = {
 				'violet': colors.purple[600],
 				'green': colors.emerald[500],
 			}
+		},
+		fontFamily: {
+			sans: [
+				'averta'
+			]
 		}
 	},
 	plugins: [
