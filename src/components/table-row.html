@@ -1,26 +1,17 @@
-{{!--
-    Accepts:
-    lazyload=true - Allows the image to lazyload, picture is lazyload by default
-    src='/img.jpg' - Default image, IE fallback and full size image
-    src-tablet='/img-tablet.jpg' - Tablet image
-    src-mobile='/img-mobile.jpg' - Mobile image
-    src-load='/img-load.jpg' - Very low quality loading image
-    alt='title' = image alt tag
-    --}}
 <tr>
-    <td class="p-2 border-b border-gray-100">
-      {{firstname}} {{lastname}}
-    </td>
-    <td class="p-2 border-b border-gray-100">
-      {{email}}
-    </td>
-    <td class="p-2 border-b border-gray-100">
-      {{jobtitle}}
-    </td>
-    <td class="p-2 border-b border-gray-100">
-      {{startdate}}
-    </td>
-    <td class="p-2 border-b border-gray-100">
-      <a class="text-sky-800 hover:underline" href="">Delete</a>
-    </td>
-  </tr>
+  <td class="p-2 border-b border-gray-100">
+    {{firstname}} {{lastname}}
+  </td>
+  <td class="p-2 text-gray-500 border-b border-gray-100">
+    {{email}}
+  </td>
+  <td class="p-2 text-gray-500 border-b border-gray-100">
+    {{job}}
+  </td>
+  <td class="p-2 text-gray-500 border-b border-gray-100">
+    {{startdate}}
+  </td>
+  <td class="p-2 border-b border-gray-100">
+    <a class="text-sky-800 hover:underline" href="">Delete</a>
+  </td>
+</tr>
